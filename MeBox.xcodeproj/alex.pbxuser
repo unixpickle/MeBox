@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FABA29C011B9D3CA0080903A /* MeBox */;
+		activeTarget = 8D1107260486CEB800E47090 /* MeBox */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* MeBox */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = FABA29D311B9D3E00080903A /* Code sense */;
+		executables = (
+			FABA29C011B9D3CA0080903A /* MeBox */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					589,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 327011507;
+			PBXWorkspaceStateSaveDate = 327011507;
+		};
+		perUserProjectItems = {
+			FA7FCB68137DB0BC00503B05 = FA7FCB68137DB0BC00503B05 /* PBXTextBookmark */;
+			FA7FCB6A137DB0BC00503B05 = FA7FCB6A137DB0BC00503B05 /* PBXTextBookmark */;
+			FA7FCBF1137DB52F00503B05 = FA7FCBF1137DB52F00503B05 /* PBXTextBookmark */;
+			FA7FCC72137DB9AC00503B05 = FA7FCC72137DB9AC00503B05 /* PBXTextBookmark */;
+			FA7FCCF7137DBF2000503B05 = FA7FCCF7137DBF2000503B05 /* PBXTextBookmark */;
+			FA7FCD22137DC26C00503B05 = FA7FCD22137DC26C00503B05 /* PBXTextBookmark */;
+			FA7FCD2C137DC55800503B05 = FA7FCD2C137DC55800503B05 /* PBXTextBookmark */;
+			FA7FCD2D137DC55800503B05 = FA7FCD2D137DC55800503B05 /* PBXTextBookmark */;
+			FAC3DE5D137DCCB60023DFC2 /* PBXTextBookmark */ = FAC3DE5D137DCCB60023DFC2 /* PBXTextBookmark */;
+			FAC3DE63137DCCC90023DFC2 /* PBXTextBookmark */ = FAC3DE63137DCCC90023DFC2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FABA29D211B9D3E00080903A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* MeBox */ = {
+		activeExec = 0;
+		executables = (
+			FABA29C011B9D3CA0080903A /* MeBox */,
+		);
+	};
+	FA7FCB55137DA85F00503B05 /* MeBoxCamera.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 742}}";
+			sepNavSelRange = "{448, 0}";
+			sepNavVisRange = "{73, 917}";
+		};
+	};
+	FA7FCB58137DAAC600503B05 /* MeBoxCamera.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 2184}}";
+			sepNavSelRange = "{4913, 0}";
+			sepNavVisRange = "{4384, 1928}";
+		};
+	};
+	FA7FCB68137DB0BC00503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7FCB69137DB0BC00503B05 /* OpenGLCommon.h */;
+		name = "OpenGLCommon.h: 1";
+		rLen = 24986;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 753;
+		vrLoc = 0;
+	};
+	FA7FCB69137DB0BC00503B05 /* OpenGLCommon.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OpenGLCommon.h;
+		path = "/Users/alex/xCode/iPhone Apps/GLOcean/Classes/OpenGLCommon.h";
+		sourceTree = "<absolute>";
+	};
+	FA7FCB6A137DB0BC00503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7FCB6B137DB0BC00503B05 /* ConstantsAndMacros.h */;
+		name = "ConstantsAndMacros.h: 1";
+		rLen = 812;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 0;
+	};
+	FA7FCB6B137DB0BC00503B05 /* ConstantsAndMacros.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ConstantsAndMacros.h;
+		path = "/Users/alex/xCode/iPhone Apps/GLOcean/Classes/ConstantsAndMacros.h";
+		sourceTree = "<absolute>";
+	};
+	FA7FCBF1137DB52F00503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7FCBF2137DB52F00503B05 /* stdlib.h */;
+		name = "stdlib.h: 146";
+		rLen = 23;
+		rLoc = 4849;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 4209;
+	};
+	FA7FCBF2137DB52F00503B05 /* stdlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdlib.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h;
+		sourceTree = "<absolute>";
+	};
+	FA7FCC72137DB9AC00503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7FCB58137DAAC600503B05 /* MeBoxCamera.c */;
+		name = "MeBoxCamera.c: 137";
+		rLen = 0;
+		rLoc = 4913;
+		rType = 0;
+		vrLen = 1928;
+		vrLoc = 4384;
+	};
+	FA7FCCF7137DBF2000503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA7FCB55137DA85F00503B05 /* MeBoxCamera.h */;
+		name = "MeBoxCamera.h: 30";
+		rLen = 0;
+		rLoc = 448;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 73;
+	};
+	FA7FCD22137DC26C00503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABA29D511B9D3E90080903A /* GLView.h */;
+		name = "GLView.h: 15";
+		rLen = 15;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	FA7FCD2C137DC55800503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABA29D611B9D3E90080903A /* GLView.m */;
+		name = "GLView.m: 100";
+		rLen = 0;
+		rLoc = 2496;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 2112;
+	};
+	FA7FCD2D137DC55800503B05 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABA29D611B9D3E90080903A /* GLView.m */;
+		name = "GLView.m: 100";
+		rLen = 0;
+		rLoc = 2496;
+		rType = 0;
+		vrLen = 1033;
+		vrLoc = 2112;
+	};
+	FABA29C011B9D3CA0080903A /* MeBox */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MeBox;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	FABA29D211B9D3E00080903A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FABA29D311B9D3E00080903A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FABA29D511B9D3E90080903A /* GLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 486}}";
+			sepNavSelRange = "{267, 15}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	FABA29D611B9D3E90080903A /* GLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 4452}}";
+			sepNavSelRange = "{2496, 0}";
+			sepNavVisRange = "{2112, 996}";
+		};
+	};
+	FAC3DE5D137DCCB60023DFC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABA29D611B9D3E90080903A /* GLView.m */;
+		name = "GLView.m: 100";
+		rLen = 0;
+		rLoc = 2496;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 2112;
+	};
+	FAC3DE63137DCCC90023DFC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FABA29D611B9D3E90080903A /* GLView.m */;
+		name = "GLView.m: 100";
+		rLen = 0;
+		rLoc = 2496;
+		rType = 0;
+		vrLen = 996;
+		vrLoc = 2112;
+	};
+}

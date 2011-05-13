@@ -1,0 +1,9 @@
+b22100267421d419c9b518f687ef4c42 f8d10f815c43c82897b61d551839c1c5 ffffffffffffffffffffffffffffffff 102 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app
+4a6a3ff49b2e2364c74516a5731fe69c ea38fd5bcc95bf338ddc46ccd897b53d ffffffffffffffffffffffffffffffff 21328 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
+000000004dcd42d7000000000000c5f5 cb9108222a36b4971d3be6b98d04974e ffffffffffffffffffffffffffffffff 7600 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004dcd42d7000000000000002d d9e2caab09acfcd99e17ae26a1634d75 ffffffffffffffffffffffffffffffff 92 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 9c91b6fd7defad545b0b3501233775db ffffffffffffffffffffffffffffffff 8 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo
+00000000000000000000000000000000 9c91b6fd7defad545b0b3501233775db ffffffffffffffffffffffffffffffff 919 /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist
+92f84d092b7e1078addb1e8dca31df70 79e1ce5a549c29d46d5e4d4d3782455a ffffffffffffffffffffffffffffffff 28784 /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/x86_64/GLView.o
+92f84d092dfbc189addb1e8dca33ff85 338bf1aec8dc8624aa1b5be8449e59bd ffffffffffffffffffffffffffffffff 4960 /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/x86_64/main.o
+000000000d09e8bf0000000000000142 92f84d092dfbc189addb1e8dca33fe24 ffffffffffffffffffffffffffffffff 54265616 /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzpnjsfixqowmadhklwqhjuiorhd/OpenGL_Application_Prefix.pch.gch
