@@ -11,6 +11,11 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		FA6C2F3B137F15B400FF21B6 /* side4.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6C2F37137F15B400FF21B6 /* side4.png */; };
+		FA6C2F3C137F15B400FF21B6 /* side3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6C2F38137F15B400FF21B6 /* side3.png */; };
+		FA6C2F3D137F15B400FF21B6 /* side2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6C2F39137F15B400FF21B6 /* side2.png */; };
+		FA6C2F3E137F15B400FF21B6 /* side1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA6C2F3A137F15B400FF21B6 /* side1.png */; };
+		FA6C30F5137F385F00FF21B6 /* mebox.icns in Resources */ = {isa = PBXBuildFile; fileRef = FA6C30F4137F385F00FF21B6 /* mebox.icns */; };
 		FA7FCB59137DAAC600503B05 /* MeBoxCamera.c in Sources */ = {isa = PBXBuildFile; fileRef = FA7FCB58137DAAC600503B05 /* MeBoxCamera.c */; };
 		FABA29D711B9D3E90080903A /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = FABA29D611B9D3E90080903A /* GLView.m */; };
 		FABA29D911B9D3FC0080903A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABA29D811B9D3FC0080903A /* GLUT.framework */; };
@@ -28,6 +33,11 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* OpenGL_Application-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OpenGL_Application-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* OpenGL Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6C2F37137F15B400FF21B6 /* side4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side4.png; sourceTree = "<group>"; };
+		FA6C2F38137F15B400FF21B6 /* side3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side3.png; sourceTree = "<group>"; };
+		FA6C2F39137F15B400FF21B6 /* side2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side2.png; sourceTree = "<group>"; };
+		FA6C2F3A137F15B400FF21B6 /* side1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = side1.png; sourceTree = "<group>"; };
+		FA6C30F4137F385F00FF21B6 /* mebox.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mebox.icns; sourceTree = "<group>"; };
 		FA7FCB55137DA85F00503B05 /* MeBoxCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeBoxCamera.h; sourceTree = "<group>"; };
 		FA7FCB58137DAAC600503B05 /* MeBoxCamera.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MeBoxCamera.c; sourceTree = "<group>"; };
 		FABA29D511B9D3E90080903A /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
@@ -113,6 +123,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA6C30F4137F385F00FF21B6 /* mebox.icns */,
+				FA6C2F37137F15B400FF21B6 /* side4.png */,
+				FA6C2F38137F15B400FF21B6 /* side3.png */,
+				FA6C2F39137F15B400FF21B6 /* side2.png */,
+				FA6C2F3A137F15B400FF21B6 /* side1.png */,
 				8D1107310486CEB800E47090 /* OpenGL_Application-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -181,6 +196,11 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				FA6C2F3B137F15B400FF21B6 /* side4.png in Resources */,
+				FA6C2F3C137F15B400FF21B6 /* side3.png in Resources */,
+				FA6C2F3D137F15B400FF21B6 /* side2.png in Resources */,
+				FA6C2F3E137F15B400FF21B6 /* side1.png in Resources */,
+				FA6C30F5137F385F00FF21B6 /* mebox.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +253,7 @@
 				INFOPLIST_FILE = "OpenGL_Application-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = "OpenGL Application";
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};

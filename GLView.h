@@ -12,7 +12,16 @@
 #import <GLUT/glut.h>
 #import "MeBoxCamera.h"
 
+#define kBoxZOffset 0.2
 #define kAnimMultFactor 1
+
+struct boxTextures {
+	int side1;
+	int side2;
+	int side3;
+	int side4;
+	BOOL hasLoaded;
+};
 
 @interface GLView : NSOpenGLView {
 	NSTimer * animationTimer;
@@ -21,10 +30,18 @@
 	float animationInterval;
 	float rota;
 	BOOL started;
+	struct boxTextures textures;
+	vector3d lightOffset;
 }
+
 - (void)startAnimation;
 - (void)stopAnimation;
 
+- (void)setupView;
+- (int)textureForImage:(NSString *)imageFile;
+- (void)loadTextures;
+
 - (void)setAnimationInterval:(float)i;
 - (float)animationInterval;
+
 @end
