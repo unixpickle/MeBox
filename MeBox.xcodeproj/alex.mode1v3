@@ -327,16 +327,16 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FAC3DE63137DCCC90023DFC2</string>
+										<string>FAC3DEDE137DE81E0023DFC2</string>
 										<key>history</key>
 										<array>
 											<string>FA7FCB68137DB0BC00503B05</string>
 											<string>FA7FCB6A137DB0BC00503B05</string>
 											<string>FA7FCBF1137DB52F00503B05</string>
-											<string>FA7FCC72137DB9AC00503B05</string>
-											<string>FA7FCCF7137DBF2000503B05</string>
 											<string>FA7FCD22137DC26C00503B05</string>
-											<string>FA7FCD2D137DC55800503B05</string>
+											<string>FAC3DE93137DE4E30023DFC2</string>
+											<string>FAC3DEA6137DE5C00023DFC2</string>
+											<string>FAC3DEA7137DE5C00023DFC2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -534,6 +534,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FAC3DEDF137DE81E0023DFC2</string>
+		<string>FAC3DE6F137DE27D0023DFC2</string>
+		<string>FAC3DE70137DE27D0023DFC2</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FABA29E111B9D62D0080903A</string>
 		<string>/Users/alex/Desktop/MeBox/MeBox.xcodeproj</string>
 	</array>
@@ -659,8 +664,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -675,8 +680,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -709,7 +714,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>380 593 694 422 0 0 1920 1058 </string>
 								</dict>
@@ -737,13 +742,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>FA7FC9E5137D7A6900503B05</string>
+				<string>FAC3DE67137DE27D0023DFC2</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>FA7FC9E6137D7A6900503B05</string>
-				<string>FA7FC9E7137D7A6900503B05</string>
-				<string>FA7FC9E8137D7A6900503B05</string>
-				<string>FA7FC9E9137D7A6900503B05</string>
-				<string>FA7FC9EA137D7A6900503B05</string>
+				<string>FAC3DE68137DE27D0023DFC2</string>
+				<string>FAC3DE69137DE27D0023DFC2</string>
+				<string>FAC3DE6A137DE27D0023DFC2</string>
+				<string>FAC3DE6B137DE27D0023DFC2</string>
+				<string>FAC3DE6C137DE27D0023DFC2</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -870,8 +875,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -907,7 +910,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>FA7FC9EB137D7A6900503B05</string>
+				<string>FAC3DE6D137DE27D0023DFC2</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -917,7 +920,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

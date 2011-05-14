@@ -49,19 +49,18 @@
 }
 
 - (void)keyUp:(NSEvent *)theEvent {
-	started = YES;
+	started = !started;
 }
 
 - (void)setupView {
 	started = NO;
-    const GLfloat zNear = 0.1, fieldOfView = 60.0;
+    const GLfloat zNear = 0.01, fieldOfView = 200.0;
     GLfloat size;
 	
     glEnable(GL_DEPTH_TEST);
     glMatrixMode(GL_PROJECTION);
     size = zNear * tanf(DEGREES_TO_RADIANS(fieldOfView) / 2.0);
 	
-	// This give us the size of the iPhone display
     NSRect rect = [self frame];
     glViewport(0, 0, rect.size.width, rect.size.height);
 	
@@ -131,7 +130,7 @@
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	// Calculate the aspect ratio of the view
-	gluPerspective(45.0f, [self frame].size.width / [self frame].size.height, 0.1f, 50.0f);
+	gluPerspective(75.0f, [self frame].size.width / [self frame].size.height, 0.1f, 60.0f);
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 	
@@ -174,7 +173,12 @@
 	float colorWhite[] = {1.0f, 1.0f, 1.0f, 1.0f};
 	float colorGreen[] = {0.0f, 1.0f, 0.0f, 1.0f};
 	
-	glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorRed);
+	glEnable(GL_BLEND);
+	glEnable(GL_ALPHA);
+	glEnable(GL_POLYGON_SMOOTH);
+
+	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
 	
 	//glTranslatef(0, 0, -5);
 	//glRotatef(cos(rota * 0.0174532925) * 360, 1, sin(rota * 0.0174532925), 1);
@@ -203,6 +207,8 @@
 			animation.destRotation = vector3dMake(0, 0, 0);
 		} else if (animationStep == 3) {
 			animationStep = 4;
+			// move back to top, spinning box 180 degrees.
+			animation.delay = 10;
 			animation.destLocation = point3dMake(0, 5, 0);
 			animation.locationMovement = vector3dMake(0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor);
 			animation.rotationMovement = vector3dMake(0, 3 * kAnimMultFactor, 0);
@@ -211,21 +217,38 @@
 			animation.destLookRotation = vector3dMake(90, 0, 0);
 		} else if (animationStep == 4) {
 			animationStep = 5;
+			// go back to the front of the box.
 			animation.destLocation = point3dMake(0, 0, 5);
 			animation.locationMovement = vector3dMake(0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor);
 			animation.lookRotationMovement = vector3dMake(2 * kAnimMultFactor, 0, 0);
 			animation.destLookRotation = vector3dMake(0, 0, 0);
 		} else if (animationStep == 5) {
 			animationStep = 6;
-			animation.destLocation = point3dMake(0, 0, 2 * kAnimMultFactor);
+			// zoom in to the face of the box.
+			animation.destLocation = point3dMake(0, 0, 1.1);
 			animation.locationMovement = vector3dMake(0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor, 0.1 * kAnimMultFactor);			
+		} else {
+			// reset.
+			animation = createIDAnimation();
+			camera.location = point3dMake(0, 0, 5);
+			camera.rotation = vector3dMake(0, 0, 0);
+			camera.lookRotation = vector3dMake(0, 0, 0);
+			animationStep = -1;
 		}
+	} else if (!started) {
+		animation = createIDAnimation();
+		camera.location = point3dMake(0, 0, 5);
+		camera.rotation = vector3dMake(0, 0, 0);
+		camera.lookRotation = vector3dMake(0, 0, 0);
+		animationStep = -1;
 	}
 
 	glTranslatef(-camera.location.x, -camera.location.y, -camera.location.z);
 	glRotatef(camera.rotation.x, 1, 0, 0);
 	glRotatef(camera.rotation.y, 0, 1, 0);
 	glRotatef(camera.rotation.z, 0, 0, 1);
+	
+	glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorRed);
 	
 	/* Back Face */
 	glBegin(GL_QUADS);

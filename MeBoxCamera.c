@@ -25,6 +25,8 @@ anCameraAnimation createIDAnimation () {
 	animation.destRotation = vector3dMake(0, 0, 0);
 	animation.destLookRotation = vector3dMake(0, 0, 0);
 	animation.lookRotationMovement = vector3dMake(0, 0, 0);
+	animation.delay = 0;
+	animation.incrCount = 0;
 	return animation;
 }
 
@@ -45,6 +47,9 @@ vector3d vector3dMake (float x, float y, float z) {
 
 int applyCameraAnimationToCamera (anCameraAnimation * animation, anCamera * camera) {
 	int changed = 0;
+	if (animation->incrCount++ < animation->delay) {
+		return 1;
+	}
 	// location (camera)
 	if (animation->locationMovement.x != 0) {
 		if (camera->location.x < animation->destLocation.x) {

@@ -25,6 +25,8 @@ typedef struct {
 } anCamera;
 
 typedef struct {
+	int delay;
+	int incrCount;
 	point3d destLocation;
 	vector3d destRotation;
 	vector3d destLookRotation;
