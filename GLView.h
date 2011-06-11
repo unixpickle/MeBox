@@ -20,6 +20,9 @@ struct boxTextures {
 	int side2;
 	int side3;
 	int side4;
+	int frontLogo;
+	int gradient;
+	int floor;
 	BOOL hasLoaded;
 };
 

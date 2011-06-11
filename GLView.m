@@ -75,7 +75,7 @@
 	glHint(GL_PERSPECTIVE_CORRECTION_HINT, GL_NICEST);	// Really Nice Perspective Calculations
 	
 	animation = createIDAnimation();
-	camera.location = point3dMake(0, 0, 5);
+	camera.location = point3dMake(0, 1, 5);
 	camera.rotation = vector3dMake(0, 0, 0);
 	camera.lookRotation = vector3dMake(0, 0, 0);
 	
@@ -170,11 +170,11 @@
 	[self loadTextures];
 	
 	
-	float colorBlue[] = {0.0f, 0.0f, 1.0f, 1.0f};
-	float colorRed[] = {1.0f, 0.0f, 0.0f, 1.0f};
-	float colorYellow[] = {1.0f, 1.0f, 0.0f, 1.0f};
+	//float colorBlue[] = {0.0f, 0.0f, 1.0f, 1.0f};
+	//float colorRed[] = {1.0f, 0.0f, 0.0f, 1.0f};
+	//float colorGreen[] = {0.0f, 1.0f, 0.0f, 1.0f};
+	//float colorYellow[] = {1.0f, 1.0f, 0.0f, 1.0f};
 	float colorWhite[] = {1.0f, 1.0f, 1.0f, 1.0f};
-	float colorGreen[] = {0.0f, 1.0f, 0.0f, 1.0f};
 	
 	glEnable(GL_BLEND);
 	glEnable(GL_ALPHA);
@@ -207,7 +207,7 @@
 			animationStep = 3;
 			// rotate back to 0.
 			animation.delay = 24*2;
-			animation.rotationMovement = vector3dMake(0, 1.7 * kAnimMultFactor, 0);
+			animation.rotationMovement = vector3dMake(0, 0.8 * kAnimMultFactor, 0);
 			animation.destRotation = vector3dMake(0, 0, 0);
 		} else if (animationStep == 3) {
 			animationStep = 4;
@@ -215,9 +215,9 @@
 			animation.delay = 24;
 			animation.destLocation = point3dMake(0, 5, kBoxZOffset);
 			animation.locationMovement = vector3dMake(0.15 * kAnimMultFactor, 0.15 * kAnimMultFactor, 0.15 * kAnimMultFactor);
-			animation.rotationMovement = vector3dMake(0, 4.2 * kAnimMultFactor, 0);
+			animation.rotationMovement = vector3dMake(0, 4.5 * kAnimMultFactor, 0);
 			animation.destRotation = vector3dMake(0, 180, 0);
-			animation.lookRotationMovement = vector3dMake(2.6 * kAnimMultFactor, 0, 0);
+			animation.lookRotationMovement = vector3dMake(3 * kAnimMultFactor, 0, 0);
 			animation.destLookRotation = vector3dMake(90, 0, 0);
 		} else if (animationStep == 4) {
 			animationStep = 5;
@@ -234,14 +234,14 @@
 		} else {
 			// reset.
 			animation = createIDAnimation();
-			camera.location = point3dMake(0, 0, 5);
+			camera.location = point3dMake(0, 1, 5);
 			camera.rotation = vector3dMake(0, 0, 0);
 			camera.lookRotation = vector3dMake(0, 0, 0);
 			animationStep = -1;
 		}
 	} else if (!started) {
 		animation = createIDAnimation();
-		camera.location = point3dMake(0, 0, 5);
+		camera.location = point3dMake(0, 1, 5);
 		camera.rotation = vector3dMake(0, 0, 0);
 		camera.lookRotation = vector3dMake(0, 0, 0);
 		animationStep = -1;
@@ -249,11 +249,8 @@
 	
 	BOOL shouldDrawTextures = (animationStep == 3 && animation.incrCount > animation.delay / 2 || animationStep == 4 && animation.incrCount < 10);
 
-	if (shouldDrawTextures) {
-		lightOffset = vector3dMake(0, 0, 0);
-	} else {
-		lightOffset = vector3dMake(0, 0, 0);
-	}
+	lightOffset = vector3dMake(0, 0, 0);
+	
 	
 	glTranslatef(-camera.location.x, -camera.location.y, -camera.location.z);
 	glRotatef(camera.rotation.x, 1, 0, 0);
@@ -264,92 +261,77 @@
 	
 	/* Back Face */
 	glPushMatrix();
-	if (!shouldDrawTextures)
-		glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorRed);
-	else {
-		glEnable(GL_TEXTURE_2D);
-		glBindTexture(GL_TEXTURE_2D, textures.side1);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	}
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, shouldDrawTextures == YES ? textures.side1 : textures.gradient);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glBegin(GL_QUADS);
 	glNormal3f(0, 0, 1);
-	if (shouldDrawTextures) glTexCoord2f(1, 0);
+	glTexCoord2f(1, 0);
 	glVertex3d(-1, 0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(1, 1);
+	glTexCoord2f(1, 1);
 	glVertex3d(-1, -0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(0, 1);
+	glTexCoord2f(0, 1);
 	glVertex3d(1, -0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(0, 0);
+	glTexCoord2f(0, 0);
 	glVertex3d(1, 0.5, -1);
 	glEnd();
 	glPopMatrix();
 	
 	/* Front Face */
+	int scaleInvert = (shouldDrawTextures ? 1 : -1);
 	glPushMatrix();
-	if (!shouldDrawTextures)
-		glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorBlue);
-	else {
-		glEnable(GL_TEXTURE_2D);
-		glBindTexture(GL_TEXTURE_2D, textures.side3);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	}
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, shouldDrawTextures == YES ? textures.side3 : textures.frontLogo);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glBegin(GL_QUADS);
 	glNormal3f(0, 0, 1);
-	if (shouldDrawTextures) glTexCoord2f(1, 0);
+	glTexCoord2f(1 * scaleInvert, 0);
 	glVertex3d(-1, 0.5, 1);
-	if (shouldDrawTextures) glTexCoord2f(1, 1);
+	glTexCoord2f(1 * scaleInvert, 1);
 	glVertex3d(-1, -0.5, 1);
-	if (shouldDrawTextures) glTexCoord2f(0, 1);
+	glTexCoord2f(0 * scaleInvert, 1);
 	glVertex3d(1, -0.5, 1);
-	if (shouldDrawTextures) glTexCoord2f(0, 0);
+	glTexCoord2f(0 * scaleInvert, 0);
 	glVertex3d(1, 0.5, 1);
 	glEnd();
 	glPopMatrix();
 		
 	/* Left Face */
 	glPushMatrix();
-	if (!shouldDrawTextures)
-		glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorYellow);
-	else {
-		glEnable(GL_TEXTURE_2D);
-		glBindTexture(GL_TEXTURE_2D, textures.side2);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	}
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, shouldDrawTextures == YES ? textures.side2 : textures.gradient);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glBegin(GL_QUADS);
 	glNormal3f(-1, 0, 0);
-	if (shouldDrawTextures) glTexCoord2f(1, 0);
+	glTexCoord2f(1, 0);
 	glVertex3d(-1, 0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(1, 1);
+	glTexCoord2f(1, 1);
 	glVertex3d(-1, -0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(0, 1);
+	glTexCoord2f(0, 1);
 	glVertex3d(-1, -0.5, 1);
-	if (shouldDrawTextures) glTexCoord2f(0, 0);
+	glTexCoord2f(0, 0);
 	glVertex3d(-1, 0.5, 1);
 	glEnd();
 	glPopMatrix();
 	
 	/* Right Face */
 	glPushMatrix();
-	if (!shouldDrawTextures)
-		glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorGreen);
-	else {
-		glEnable(GL_TEXTURE_2D);
-		glBindTexture(GL_TEXTURE_2D, textures.side4);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-		glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-	}
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, shouldDrawTextures == YES ? textures.side4 : textures.gradient);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glBegin(GL_QUADS);
 	glNormal3f(-1, 0, 0);
-	if (shouldDrawTextures) glTexCoord2f(0, 0);
+	glTexCoord2f(0, 0);
 	glVertex3d(1, 0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(0, 1);
+	glTexCoord2f(0, 1);
 	glVertex3d(1, -0.5, -1);
-	if (shouldDrawTextures) glTexCoord2f(1, 1);
+	glTexCoord2f(1, 1);
 	glVertex3d(1, -0.5, 1);
-	if (shouldDrawTextures) glTexCoord2f(1, 0);
+	glTexCoord2f(1, 0);
 	glVertex3d(1, 0.5, 1);
 	glEnd();
 	glPopMatrix();
@@ -367,13 +349,24 @@
 	
 	glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, colorWhite);
 	
+	scaleInvert = -1;
+	glPushMatrix();
+	glEnable(GL_TEXTURE_2D);
+	glBindTexture(GL_TEXTURE_2D, textures.floor);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 	glBegin(GL_QUADS);
 	glNormal3f(0, 1, 0);
+	glTexCoord2f(1 * scaleInvert, 0);
 	glVertex3d(1, -0.5, -1);
+	glTexCoord2f(1 * scaleInvert, 1);
 	glVertex3d(-1, -0.5, -1);
+	glTexCoord2f(0 * scaleInvert, 1);
 	glVertex3d(-1, -0.5, 1);
+	glTexCoord2f(0 * scaleInvert, 0);
 	glVertex3d(1, -0.5, 1);
 	glEnd();
+	glPopMatrix();
 	
     glFlush();
 	[[self openGLContext] flushBuffer];
@@ -392,9 +385,16 @@
 	NSBitmapImageRep * bitmap = [NSBitmapImageRep imageRepWithData:[resized TIFFRepresentation]];
 	glGenTextures(1, &tex);
 	glBindTexture(GL_TEXTURE_2D, tex);
-	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, [bitmap pixelsWide], [bitmap pixelsHigh], 0, GL_RGBA, GL_UNSIGNED_BYTE, [bitmap bitmapData]);
+	if ([bitmap bitsPerPixel] == 24) {
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, [bitmap pixelsWide], [bitmap pixelsHigh], 0, GL_RGB, GL_UNSIGNED_BYTE, [bitmap bitmapData]);
+	} else
+		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, [bitmap pixelsWide], [bitmap pixelsHigh], 0, GL_RGBA, GL_UNSIGNED_BYTE, [bitmap bitmapData]);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR); // Linear Filtering
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR); // Linear Filtering
+	
+	NSLog(@"File %@, Bitmap %@", imageFile, bitmap);
+	NSLog(@"****");
+	
 	[resized release];
 	[pool drain];
 	return tex;
@@ -402,10 +402,13 @@
 
 - (void)loadTextures {
 	if (textures.hasLoaded) return;
-	textures.side1 = [self textureForImage:@"side1.png"];
-	textures.side2 = [self textureForImage:@"side2.png"];
-	textures.side3 = [self textureForImage:@"side3.png"];
-	textures.side4 = [self textureForImage:@"side4.png"];
+	textures.frontLogo = [self textureForImage:@"meebox_512.png"];
+	textures.gradient = [self textureForImage:@"gradient_512.png"];
+	textures.side1 = [self textureForImage:@"meeboxinside1.png"];
+	textures.side2 = [self textureForImage:@"meeboxinside2.png"];
+	textures.side3 = [self textureForImage:@"meeboxinside3.png"];
+	textures.side4 = [self textureForImage:@"meeboxinside4.png"];
+	textures.floor = [self textureForImage:@"mebox floor.png"];
 	textures.hasLoaded = YES;
 }
 

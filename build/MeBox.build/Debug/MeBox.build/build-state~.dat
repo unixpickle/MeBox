@@ -1,23 +1,30 @@
 TMeBox
 v7
 r0
-t327104891.291496
+t328842341.757387
 cCheck dependencies
-cProcessInfoPlistFile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist" OpenGL_Application-Info.plist
-cCopyStringsFile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-cCompileXIB /Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib
+cProcessInfoPlistFile "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist" OpenGL_Application-Info.plist
+cCopyStringsFile "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCompileXIB /Users/alex/xCode/MeBox/English.lproj/MainMenu.xib
 cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side4.png" side4.png
 cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side3.png" side3.png
 cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side2.png" side2.png
 cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side1.png" side1.png
 cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox.icns" mebox.icns
-cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-emcugkzcxlkafqaspeaceufmlgzg/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-gmzjecewfdvythdghfxcjxnachpw/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
-cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/main.o /Users/alex/Desktop/MeBox/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o /Users/alex/Desktop/MeBox/GLView.m normal ppc objective-c com.apple.compilers.gcc.4_2
-cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/MeBoxCamera.o /Users/alex/Desktop/MeBox/MeBoxCamera.c normal ppc c com.apple.compilers.gcc.4_2
-cLd "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal ppc
-cTouch "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app"
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/gradient_512.png" gradient_512.png
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meebox_512.png" meebox_512.png
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside1.png" meeboxinside1.png
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside2.png" meeboxinside2.png
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside3.png" meeboxinside3.png
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox floor.png" "mebox floor.png"
+cCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside4.png" meeboxinside4.png
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o /Users/alex/xCode/MeBox/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o /Users/alex/xCode/MeBox/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o /Users/alex/xCode/MeBox/MeBoxCamera.c normal i386 c com.apple.compilers.gcc.4_2
+cLd "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal i386
+cTouch "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app"
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004BF4701900000000000000EE
@@ -80,9 +87,9 @@ t1305335125
 s32661
 
 N/Users/alex/Desktop/MeBox/GLView.h
-c000000004DCEFF81000000000000033D
-t1305411457
-s829
+c000000004DD067A2000000000000035C
+t1305503650
+s860
 i<Cocoa/Cocoa.h>
 i<OpenGL/gl.h>
 i<OpenGL/glu.h>
@@ -90,9 +97,9 @@ i<GLUT/glut.h>
 i"MeBoxCamera.h"
 
 N/Users/alex/Desktop/MeBox/GLView.m
-c000000004DCF01C400000000000032A0
-t1305412036
-s12960
+c000000004DD074D50000000000003205
+t1305507029
+s12805
 i"GLView.h"
 
 N/Users/alex/Desktop/MeBox/MeBoxCamera.c
@@ -115,73 +122,93 @@ s167
 i<Cocoa/Cocoa.h>
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app
-t1305412091
+t1305505574
 s102
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist
-t1305412083
+t1305503922
 s1017
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
-t1305412091
-s33824
+t1305505574
+s34432
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo
-t1305412083
+t1305503922
 s8
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1305412083
+t1305503923
 s92
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib
-t1305412084
+t1305503923
 s7611
 
+N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/gradient.png
+t2
+s0
+
+N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/gradient_512.png
+t1305503923
+s136947
+
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/mebox.icns
-t1305412083
+t1305503923
 s41971
+
+N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/mebox_front.png
+t2
+s0
+
+N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meebox.png
+t2
+s0
+
+N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meebox_512.png
+t1305503923
+s147030
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side1.bmp
 t1305406098
 s1048630
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side1.png
-t1305412083
+t1305503923
 s21258
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side2.png
-t1305412083
+t1305503923
 s23276
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side3.png
-t1305412083
+t1305503923
 s28313
 
 N/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side4.png
-t1305412083
+t1305503923
 s49164
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o
-t1305412040
-s46164
+t1305505573
+s46068
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o
-t1305411833
+t1305503939
 s8720
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/OpenGL Application.LinkFileList
-c000000004DCF00F50000000000000114
-t1305411829
+c000000004DCF03920000000000000114
+t1305412498
 s276
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o
-t1305411833
-s4860
+t1305503938
+s4828
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o
-t1305412090
-s51652
+t1305412441
+s51572
 
 N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/MeBoxCamera.o
 t1305412090
@@ -213,6 +240,16 @@ N/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/x8
 t1305318739
 s4992
 
+N/Users/alex/Desktop/MeBox/gradient.png
+c000000004DD06765000000000002DFDD
+t1305503589
+s188381
+
+N/Users/alex/Desktop/MeBox/gradient_512.png
+c000000004DD0681800000000000216F3
+t1305503768
+s136947
+
 N/Users/alex/Desktop/MeBox/main.m
 c000000004DCD42D70000000000000106
 t1305297623
@@ -223,6 +260,21 @@ N/Users/alex/Desktop/MeBox/mebox.icns
 c000000004DCF00D5000000000000A3F3
 t1305411797
 s41971
+
+N/Users/alex/Desktop/MeBox/mebox_front.png
+c000000004DD0672F0000000000037335
+t1305503535
+s226101
+
+N/Users/alex/Desktop/MeBox/meebox.png
+c000000004DD065A70000000000014DEB
+t1305503143
+s85483
+
+N/Users/alex/Desktop/MeBox/meebox_512.png
+c000000004DD068170000000000023E56
+t1305503767
+s147030
 
 N/Users/alex/Desktop/MeBox/side1.bmp
 c000000004DCEEA910000000000100036
@@ -245,6 +297,211 @@ t1305402881
 s28313
 
 N/Users/alex/Desktop/MeBox/side4.png
+c000000004DCEDE1E000000000000C00C
+t1305402910
+s49164
+
+N/Users/alex/xCode/MeBox/../../Desktop/mebox floor.png
+c000000004DDDB252000000000001CC49
+t1306374738
+s117833
+
+N/Users/alex/xCode/MeBox/English.lproj/InfoPlist.strings
+c000000004DCD42D7000000000000002D
+t1305297623
+s45
+
+N/Users/alex/xCode/MeBox/English.lproj/MainMenu.xib
+c000000004DCDD5550000000000007F95
+t1305335125
+s32661
+
+N/Users/alex/xCode/MeBox/GLView.h
+c000000004DDDB4590000000000000368
+t1306375257
+s872
+i<Cocoa/Cocoa.h>
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<GLUT/glut.h>
+i"MeBoxCamera.h"
+
+N/Users/alex/xCode/MeBox/GLView.m
+c000000004DE9825800000000000033A2
+t1307148888
+s13218
+i"GLView.h"
+
+N/Users/alex/xCode/MeBox/MeBoxCamera.c
+c000000004DCDAD270000000000001953
+t1305324839
+s6483
+i"MeBoxCamera.h"
+
+N/Users/alex/xCode/MeBox/MeBoxCamera.h
+c000000004DCDACF800000000000004CA
+t1305324792
+s1226
+i<stdlib.h>
+i<math.h>
+
+N/Users/alex/xCode/MeBox/OpenGL_Application_Prefix.pch
+c000000004DCD42D700000000000000A7
+t1305297623
+s167
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app
+t1307149541
+s102
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist
+t1307149526
+s1017
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
+t1307149541
+s34432
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo
+t1307149526
+s8
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1307149528
+s92
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib
+t1307149529
+s7611
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/gradient_512.png
+t1307149528
+s136947
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/mebox floor.png
+t1307149528
+s182439
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/mebox.icns
+t1307149528
+s41971
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meebox_512.png
+t1307149528
+s147030
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside1.png
+t1307149528
+s583225
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside2.png
+t1307149529
+s700588
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside3.png
+t1307149529
+s516824
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside4.png
+t1307149528
+s483441
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side1.png
+t1307149528
+s21258
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side2.png
+t1307149528
+s23276
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side3.png
+t1307149528
+s28313
+
+N/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/side4.png
+t1307149528
+s49164
+
+N/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o
+t1307149540
+s46676
+
+N/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o
+t1307149540
+s8720
+
+N/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/OpenGL Application.LinkFileList
+c000000004DE984D6000000000000010E
+t1307149526
+s270
+
+N/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o
+t1307149540
+s4856
+
+N/Users/alex/xCode/MeBox/gradient_512.png
+c000000004DD0681800000000000216F3
+t1305503768
+s136947
+
+N/Users/alex/xCode/MeBox/main.m
+c000000004DCD42D70000000000000106
+t1305297623
+s262
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/xCode/MeBox/mebox floor.png
+c000000004DE984C2000000000002C8A7
+t1307149506
+s182439
+
+N/Users/alex/xCode/MeBox/mebox.icns
+c000000004DCF00D5000000000000A3F3
+t1305411797
+s41971
+
+N/Users/alex/xCode/MeBox/meebox_512.png
+c000000004DD068170000000000023E56
+t1305503767
+s147030
+
+N/Users/alex/xCode/MeBox/meeboxinside1.png
+c000000004DDC1FA8000000000008E639
+t1306271656
+s583225
+
+N/Users/alex/xCode/MeBox/meeboxinside2.png
+c000000004DDC1F9800000000000AB0AC
+t1306271640
+s700588
+
+N/Users/alex/xCode/MeBox/meeboxinside3.png
+c000000004DDC310C000000000007E2D8
+t1306276108
+s516824
+
+N/Users/alex/xCode/MeBox/meeboxinside4.png
+c000000004DE8305B0000000000076071
+t1307062363
+s483441
+
+N/Users/alex/xCode/MeBox/side1.png
+c000000004DCEDD91000000000000530A
+t1305402769
+s21258
+
+N/Users/alex/xCode/MeBox/side2.png
+c000000004DCEDDE60000000000005AEC
+t1305402854
+s23276
+
+N/Users/alex/xCode/MeBox/side3.png
+c000000004DCEDE010000000000006E99
+t1305402881
+s28313
+
+N/Users/alex/xCode/MeBox/side4.png
 c000000004DCEDE1E000000000000C00C
 t1305402910
 s49164
@@ -339,13 +596,25 @@ c000000004BBD2CE90000000000002DF5
 t1270689001
 s11765
 
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-aeharruojqrrllcgtuqeoveuljmq/OpenGL_Application_Prefix.pch.gch
+t1305503924
+s2187632
+
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-awuimuvwypydwzavsugftrrqzljb/OpenGL_Application_Prefix.pch.gch
 t1305411833
+s56944432
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch.gch
+t1307149539
 s56944432
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bhaxunbsucucvcaodtezlhyaiodg/OpenGL_Application_Prefix.pch.gch
 t1305318726
 s2195824
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch.gch
+t1305503937
+s56903472
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzpnjsfixqowmadhklwqhjuiorhd/OpenGL_Application_Prefix.pch.gch
 t1305297638
@@ -354,6 +623,10 @@ s54265616
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-caryfyldyopyqjcvxsdvmhbrnlgz/OpenGL_Application_Prefix.pch.gch
 t1305310910
 s2195824
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch.gch
+t1307149529
+s2187632
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-choqjsweqlxntfgidokzqjbdlllu/OpenGL_Application_Prefix.pch.gch
 t1305411829
@@ -368,16 +641,16 @@ t1305412090
 s50405616
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-fcfaizrzzumghhgvnlhpdrluobuf/OpenGL_Application_Prefix.pch.gch
-t2
-s0
+t1305412505
+s54124976
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-gmzjecewfdvythdghfxcjxnachpw/OpenGL_Application_Prefix.pch.gch
 t1305412084
 s1950064
 
 N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-hfilyfekbqdsfddpiyxcpwpqjpdg/OpenGL_Application_Prefix.pch.gch
-t2
-s0
+t1305412498
+s2187632
 
 NOpenGL_Application-Info.plist
 c000000004DCF0106000000000000040D
@@ -386,11 +659,11 @@ s1037
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies327104883#327104883#0(0"0(0#1#0"8613959520#0"0#
+lSLF07#2@18"Check dependencies328842326#328842326#0(0"0(0#1#0"8612251104#0"0#
 
 CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o /Users/alex/Desktop/MeBox/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327104840.079443
-e327104840.578037
+s327198373.507488
+e327198373.982517
 r1
 xCompileC
 xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o
@@ -399,11 +672,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/alex/Desktop/MeBox/GLView.m327104840#327104840#0(0"0(0#0#34"/Users/alex/Desktop/MeBox/GLView.m8603163648#1381"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-awuimuvwypydwzavsugftrrqzljb/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/GLView.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o0#
+lSLF07#2@42"Compile /Users/alex/Desktop/MeBox/GLView.m327198373#327198373#0(0"0(0#0#34"/Users/alex/Desktop/MeBox/GLView.m8615890528#1351"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/GLView.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o0#
+
+CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o /Users/alex/xCode/MeBox/GLView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328842340.138798
+e328842340.421502
+r1
+xCompileC
+xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o
+x/Users/alex/xCode/MeBox/GLView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Compile /Users/alex/xCode/MeBox/GLView.m328842340#328842340#0(0"0(0#0#32"/Users/alex/xCode/MeBox/GLView.m8612515360#1359"    cd /Users/alex/xCode/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/xCode/MeBox/build/Debug -I/Users/alex/xCode/MeBox/build/Debug/include -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch -c /Users/alex/xCode/MeBox/GLView.m -o /Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/GLView.o0#
 
 CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o /Users/alex/Desktop/MeBox/MeBoxCamera.c normal i386 c com.apple.compilers.gcc.4_2
-s327104633.414139
-e327104633.485870
+s327196738.762071
+e327196739.029274
 r1
 xCompileC
 xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o
@@ -412,11 +698,24 @@ xnormal
 xi386
 xc
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/alex/Desktop/MeBox/MeBoxCamera.c327104633#327104633#0(0"0(0#0#39"/Users/alex/Desktop/MeBox/MeBoxCamera.c8611323296#1381"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-choqjsweqlxntfgidokzqjbdlllu/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/MeBoxCamera.c -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o0#
+lSLF07#2@47"Compile /Users/alex/Desktop/MeBox/MeBoxCamera.c327196738#327196739#0(0"0(0#0#39"/Users/alex/Desktop/MeBox/MeBoxCamera.c4861758128704532480#1351"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-aeharruojqrrllcgtuqeoveuljmq/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/MeBoxCamera.c -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o0#
+
+CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o /Users/alex/xCode/MeBox/MeBoxCamera.c normal i386 c com.apple.compilers.gcc.4_2
+s328842340.370025
+e328842340.527458
+r1
+xCompileC
+xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o
+x/Users/alex/xCode/MeBox/MeBoxCamera.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/alex/xCode/MeBox/MeBoxCamera.c328842340#328842340#0(0"0(0#0#37"/Users/alex/xCode/MeBox/MeBoxCamera.c8613125984#1359"    cd /Users/alex/xCode/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/xCode/MeBox/build/Debug -I/Users/alex/xCode/MeBox/build/Debug/include -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch -c /Users/alex/xCode/MeBox/MeBoxCamera.c -o /Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/MeBoxCamera.o0#
 
 CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o /Users/alex/Desktop/MeBox/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327104633.253318
-e327104633.413787
+s327196738.358922
+e327196738.761972
 r1
 xCompileC
 xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o
@@ -425,11 +724,24 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@40"Compile /Users/alex/Desktop/MeBox/main.m327104633#327104633#0(0"0(0#0#32"/Users/alex/Desktop/MeBox/main.m8635876544#1377"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-awuimuvwypydwzavsugftrrqzljb/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/main.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o0#
+lSLF07#2@40"Compile /Users/alex/Desktop/MeBox/main.m327196738#327196738#0(0"0(0#0#32"/Users/alex/Desktop/MeBox/main.m8607864576#1347"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/main.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o0#
+
+CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o /Users/alex/xCode/MeBox/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s328842340.136978
+e328842340.369919
+r1
+xCompileC
+xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o
+x/Users/alex/xCode/MeBox/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Compile /Users/alex/xCode/MeBox/main.m328842340#328842340#0(0"0(0#0#30"/Users/alex/xCode/MeBox/main.m8612951040#1355"    cd /Users/alex/xCode/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/xCode/MeBox/build/Debug -I/Users/alex/xCode/MeBox/build/Debug/include -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch -c /Users/alex/xCode/MeBox/main.m -o /Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/main.o0#
 
 CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o /Users/alex/Desktop/MeBox/GLView.m normal ppc objective-c com.apple.compilers.gcc.4_2
-s327104890.413355
-e327104890.673358
+s327105240.436869
+e327105241.598308
 r1
 xCompileC
 xbuild/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o
@@ -438,7 +750,7 @@ xnormal
 xppc
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@42"Compile /Users/alex/Desktop/MeBox/GLView.m327104890#327104890#0(0"0(0#0#34"/Users/alex/Desktop/MeBox/GLView.m8635844736#1388"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/ppc -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-emcugkzcxlkafqaspeaceufmlgzg/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/GLView.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o0#
+lSLF07#2@42"Compile /Users/alex/Desktop/MeBox/GLView.m327105240#327105241#0(0"0(0#0#34"/Users/alex/Desktop/MeBox/GLView.m8630301600#1388"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/ppc -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-emcugkzcxlkafqaspeaceufmlgzg/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/GLView.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/GLView.o0#
 
 CCompileC build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/MeBoxCamera.o /Users/alex/Desktop/MeBox/MeBoxCamera.c normal ppc c com.apple.compilers.gcc.4_2
 s327104890.671883
@@ -506,30 +818,122 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Compile /Users/alex/Desktop/MeBox/main.m327011539#327011539#0(0"0(0#0#32"/Users/alex/Desktop/MeBox/main.m8596030592#1383"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/x86_64 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-dalwxhxwvzsilgalogqkmsbbfyzo/OpenGL_Application_Prefix.pch -c /Users/alex/Desktop/MeBox/main.m -o /Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/x86_64/main.o0#
 
 CCompileXIB /Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib
-s327104883.864694
-e327104884.072152
+s327196722.787384
+e327196723.777191
 r1
 xCompileXIB
 x/Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib327104883#327104884#0(0"0(0#0#52"/Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib8631729344#368"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib" /Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib327196722#327196723#0(0"0(0#0#52"/Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib8608129056#338"    cd /Users/alex/Desktop/MeBox    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib" /Users/alex/Desktop/MeBox/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/alex/xCode/MeBox/English.lproj/MainMenu.xib
+s328842326.512660
+e328842329.084923
+r1
+xCompileXIB
+x/Users/alex/xCode/MeBox/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib328842326#328842329#0(0"0(0#0#50"/Users/alex/xCode/MeBox/English.lproj/MainMenu.xib8610664928#362"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/MainMenu.nib" /Users/alex/xCode/MeBox/English.lproj/MainMenu.xib --sdk /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk0#
 
 CCopyStringsFile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-s327104883.863879
-e327104883.912250
+s327196722.775933
+e327196723.447698
 r1
 xCopyStringsFile
 x/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings
 xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings327104883#327104883#0(0"0(0#0#57"/Users/alex/Desktop/MeBox/English.lproj/InfoPlist.strings8632057248#367"    cd /Users/alex/Desktop/MeBox    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj"0#
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings327196722#327196723#0(0"0(0#0#57"/Users/alex/Desktop/MeBox/English.lproj/InfoPlist.strings8608649728#352"    cd /Users/alex/Desktop/MeBox    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj"0#
+
+CCopyStringsFile "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s328842326.473989
+e328842328.670233
+r1
+xCopyStringsFile
+x/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings328842326#328842328#0(0"0(0#0#55"/Users/alex/xCode/MeBox/English.lproj/InfoPlist.strings8610714048#363"    cd /Users/alex/xCode/MeBox    setenv ICONV /usr/bin/iconv    /Xcodes/Developer11072010/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources/English.lproj"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/gradient.png" gradient.png
+r0
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/gradient_512.png" gradient_512.png
+s328842328.682789
+e328842329.068714
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/gradient_512.png
+xgradient_512.png
+lSLF07#2@21"Copy gradient_512.png328842328#328842329#0(0"0(0#0#40"/Users/alex/xCode/MeBox/gradient_512.png8611369216#329"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/gradient_512.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox floor.png" "../../Desktop/mebox floor.png"
+r0
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox floor.png" "mebox floor.png"
+s328842328.885292
+e328842329.069829
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/mebox floor.png
+xmebox floor.png
+lSLF07#2@20"Copy mebox floor.png328842328#328842329#0(0"0(0#0#39"/Users/alex/xCode/MeBox/mebox floor.png8612631680#330"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/alex/xCode/MeBox/mebox floor.png" "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox.icns" mebox.icns
-s327104883.918442
-e327104883.926587
+s328842328.681150
+e328842329.011005
 r1
 xCpResource
 xbuild/Debug/OpenGL Application.app/Contents/Resources/mebox.icns
 xmebox.icns
-lSLF07#2@15"Copy mebox.icns327104883#327104883#0(0"0(0#0#36"/Users/alex/Desktop/MeBox/mebox.icns8613954912#329"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/mebox.icns "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+lSLF07#2@15"Copy mebox.icns328842328#328842329#0(0"0(0#0#34"/Users/alex/xCode/MeBox/mebox.icns8611508800#323"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/mebox.icns "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/mebox_front.png" mebox_front.png
+r0
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meebox.png" meebox.png
+r0
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meebox_512.png" meebox_512.png
+s328842328.686056
+e328842329.067569
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/meebox_512.png
+xmeebox_512.png
+lSLF07#2@19"Copy meebox_512.png328842328#328842329#0(0"0(0#0#38"/Users/alex/xCode/MeBox/meebox_512.png8611356384#327"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/meebox_512.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside1.png" meeboxinside1.png
+s328842328.690491
+e328842329.105066
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/meeboxinside1.png
+xmeeboxinside1.png
+lSLF07#2@22"Copy meeboxinside1.png328842328#328842329#0(0"0(0#0#41"/Users/alex/xCode/MeBox/meeboxinside1.png8611230368#330"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/meeboxinside1.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside2.png" meeboxinside2.png
+s328842328.693137
+e328842329.140741
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/meeboxinside2.png
+xmeeboxinside2.png
+lSLF07#2@22"Copy meeboxinside2.png328842328#328842329#0(0"0(0#0#41"/Users/alex/xCode/MeBox/meeboxinside2.png8611137472#330"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/meeboxinside2.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside3.png" meeboxinside3.png
+s328842328.812885
+e328842329.134370
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/meeboxinside3.png
+xmeeboxinside3.png
+lSLF07#2@22"Copy meeboxinside3.png328842328#328842329#0(0"0(0#0#41"/Users/alex/xCode/MeBox/meeboxinside3.png8617519296#330"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/meeboxinside3.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+
+CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/meeboxinside4.png" meeboxinside4.png
+s328842328.954032
+e328842329.117416
+r1
+xCpResource
+xbuild/Debug/OpenGL Application.app/Contents/Resources/meeboxinside4.png
+xmeeboxinside4.png
+lSLF07#2@22"Copy meeboxinside4.png328842328#328842329#0(0"0(0#0#41"/Users/alex/xCode/MeBox/meeboxinside4.png8610973952#330"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/meeboxinside4.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side1.bmp" side1.bmp
 s327098898.352964
@@ -541,60 +945,60 @@ xside1.bmp
 lSLF07#2@14"Copy side1.bmp327098898#327098898#0(0"0(0#0#35"/Users/alex/Desktop/MeBox/side1.bmp8626793408#328"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/side1.bmp "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side1.png" side1.png
-s327104883.916539
-e327104883.925600
+s328842328.677400
+e328842328.885134
 r1
 xCpResource
 xbuild/Debug/OpenGL Application.app/Contents/Resources/side1.png
 xside1.png
-lSLF07#2@14"Copy side1.png327104883#327104883#0(0"0(0#0#35"/Users/alex/Desktop/MeBox/side1.png8614499936#328"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/side1.png "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+lSLF07#2@14"Copy side1.png328842328#328842328#0(0"0(0#0#33"/Users/alex/xCode/MeBox/side1.png8611708224#322"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/side1.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side2.png" side2.png
-s327104883.915744
-e327104883.924370
+s328842328.675852
+e328842328.812794
 r1
 xCpResource
 xbuild/Debug/OpenGL Application.app/Contents/Resources/side2.png
 xside2.png
-lSLF07#2@14"Copy side2.png327104883#327104883#0(0"0(0#0#35"/Users/alex/Desktop/MeBox/side2.png8620167552#328"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/side2.png "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+lSLF07#2@14"Copy side2.png328842328#328842328#0(0"0(0#0#33"/Users/alex/xCode/MeBox/side2.png8611793312#322"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/side2.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side3.png" side3.png
-s327104883.913671
-e327104883.921983
+s328842328.674660
+e328842328.953902
 r1
 xCpResource
 xbuild/Debug/OpenGL Application.app/Contents/Resources/side3.png
 xside3.png
-lSLF07#2@14"Copy side3.png327104883#327104883#0(0"0(0#0#35"/Users/alex/Desktop/MeBox/side3.png8624159520#328"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/side3.png "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+lSLF07#2@14"Copy side3.png328842328#328842328#0(0"0(0#0#33"/Users/alex/xCode/MeBox/side3.png8612098752#322"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/side3.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CCpResource "build/Debug/OpenGL Application.app/Contents/Resources/side4.png" side4.png
-s327104883.912770
-e327104883.921868
+s328842328.670425
+e328842328.959126
 r1
 xCpResource
 xbuild/Debug/OpenGL Application.app/Contents/Resources/side4.png
 xside4.png
-lSLF07#2@14"Copy side4.png327104883#327104883#0(0"0(0#0#35"/Users/alex/Desktop/MeBox/side4.png8627036448#328"    cd /Users/alex/Desktop/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Desktop/MeBox/side4.png "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
+lSLF07#2@14"Copy side4.png328842328#328842328#0(0"0(0#0#33"/Users/alex/xCode/MeBox/side4.png8612265888#322"    cd /Users/alex/xCode/MeBox    /Xcodes/Developer11072010/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/xCode/MeBox/side4.png "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Resources"0#
 
 CLd "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal i386
-s327104840.578125
-e327104840.618159
+s327198373.982618
+e327198374.021144
 r1
 xLd
 x/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
 xnormal
 xi386
-lSLF07#2@99"Link /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application327104840#327104840#0(0"0(0#0#0"8611626752#570"    cd /Users/alex/Desktop/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/MeBox/build/Debug -F/Users/alex/Desktop/MeBox/build/Debug -filelist "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/OpenGL Application.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
+lSLF07#2@99"Link /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application327198373#327198374#0(0"0(0#0#0"8619754080#540"    cd /Users/alex/Desktop/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/MeBox/build/Debug -F/Users/alex/Desktop/MeBox/build/Debug -filelist "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/OpenGL Application.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
 
 CLd "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal ppc
-s327104890.748775
-e327104891.288501
+s327105241.598577
+e327105241.899486
 r1
 xLd
 x/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
 xnormal
 xppc
-lSLF07#2@99"Link /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application327104890#327104891#0(0"0(0#0#0"8630167520#568"    cd /Users/alex/Desktop/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch ppc -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -L/Users/alex/Desktop/MeBox/build/Debug -F/Users/alex/Desktop/MeBox/build/Debug -filelist "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/OpenGL Application.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
+lSLF07#2@99"Link /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application327105241#327105241#0(0"0(0#0#0"8625147136#568"    cd /Users/alex/Desktop/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch ppc -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -L/Users/alex/Desktop/MeBox/build/Debug -F/Users/alex/Desktop/MeBox/build/Debug -filelist "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/ppc/OpenGL Application.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
 
 CLd "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal x86_64
 s327104461.094166
@@ -606,14 +1010,46 @@ xnormal
 xx86_64
 lSLF07#2@99"Link /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application327104461#327104461#0(0"0(0#0#0"8635882176#574"    cd /Users/alex/Desktop/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/Desktop/MeBox/build/Debug -F/Users/alex/Desktop/MeBox/build/Debug -filelist "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/x86_64/OpenGL Application.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
 
+CLd "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application" normal i386
+s328842340.527553
+e328842341.690078
+r1
+xLd
+x/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application
+xnormal
+xi386
+lSLF07#2@97"Link /Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application328842340#328842341#0(0"0(0#0#0"8612506336#560"    cd /Users/alex/xCode/MeBox    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -L/Users/alex/xCode/MeBox/build/Debug -F/Users/alex/xCode/MeBox/build/Debug -filelist "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/Objects-normal/i386/OpenGL Application.LinkFileList" -mmacosx-version-min=10.6 -framework Cocoa -framework GLUT -framework OpenGL -o "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/MacOS/OpenGL Application"0#
+
 CProcessInfoPlistFile "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist" OpenGL_Application-Info.plist
-s327104883.857918
-e327104883.863797
+s327196722.730913
+e327196722.775836
 r1
 xProcessInfoPlistFile
 x/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist
 xOpenGL_Application-Info.plist
-lSLF07#2@37"Process OpenGL_Application-Info.plist327104883#327104883#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application-Info.plist8635715552#308"    cd /Users/alex/Desktop/MeBox    builtin-infoPlistUtility OpenGL_Application-Info.plist -genpkginfo "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist"0#
+lSLF07#2@37"Process OpenGL_Application-Info.plist327196722#327196722#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application-Info.plist7813868778504865792#308"    cd /Users/alex/Desktop/MeBox    builtin-infoPlistUtility OpenGL_Application-Info.plist -genpkginfo "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist" OpenGL_Application-Info.plist
+s328842326.470556
+e328842326.473831
+r1
+xProcessInfoPlistFile
+x/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist
+xOpenGL_Application-Info.plist
+lSLF07#2@37"Process OpenGL_Application-Info.plist328842326#328842326#0(0"0(0#0#53"/Users/alex/xCode/MeBox/OpenGL_Application-Info.plist7957695015157983232#302"    cd /Users/alex/xCode/MeBox    builtin-infoPlistUtility OpenGL_Application-Info.plist -genpkginfo "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app/Contents/Info.plist"0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-aeharruojqrrllcgtuqeoveuljmq/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s327196723.779110
+e327196724.588172
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-aeharruojqrrllcgtuqeoveuljmq/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327196723#327196724#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8614746336#1273"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-aeharruojqrrllcgtuqeoveuljmq/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-awuimuvwypydwzavsugftrrqzljb/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s327104629.833447
@@ -628,6 +1064,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327104629#327104633#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8614003264#1313"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-awuimuvwypydwzavsugftrrqzljb/OpenGL_Application_Prefix.pch.gch0#
 
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s328842329.140864
+e328842340.136599
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch328842329#328842340#0(0"0(0#0#53"/Users/alex/xCode/MeBox/OpenGL_Application_Prefix.pch8610330048#1293"    cd /Users/alex/xCode/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/xCode/MeBox/build/Debug -I/Users/alex/xCode/MeBox/build/Debug/include -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/xCode/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-azunzlwzjyzwnmckfvdlaemkdkma/OpenGL_Application_Prefix.pch.gch0#
+
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bhaxunbsucucvcaodtezlhyaiodg/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
 s327011526.106137
 e327011527.177844
@@ -640,6 +1089,19 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327011526#327011527#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8606282560#1307"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/x86_64 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bhaxunbsucucvcaodtezlhyaiodg/OpenGL_Application_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s327196723.777493
+e327196738.358707
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327196723#327196738#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8615157248#1283"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzohgqpsawdubxgohqswlfdgffyk/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-bzpnjsfixqowmadhklwqhjuiorhd/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s326990427.106924
@@ -666,6 +1128,19 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327003709#327003710#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8102047607196971008#1277"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/x86_64 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-caryfyldyopyqjcvxsdvmhbrnlgz/OpenGL_Application_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s328842329.141973
+e328842329.804758
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch328842329#328842329#0(0"0(0#0#53"/Users/alex/xCode/MeBox/OpenGL_Application_Prefix.pch8609683968#1283"    cd /Users/alex/xCode/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/xCode/MeBox/build/Debug -I/Users/alex/xCode/MeBox/build/Debug/include -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/xCode/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/xCode/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-chczaenndcipskczdpzpckftykuf/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-choqjsweqlxntfgidokzqjbdlllu/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
 s327104629.834322
@@ -707,7 +1182,17 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327104884#327104890#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8596959104#1321"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/ppc -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-emcugkzcxlkafqaspeaceufmlgzg/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-fcfaizrzzumghhgvnlhpdrluobuf/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
+s327105298.657281
+e327105305.241838
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-fcfaizrzzumghhgvnlhpdrluobuf/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327105298#327105305#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8611625376#1313"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-fcfaizrzzumghhgvnlhpdrluobuf/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-gmzjecewfdvythdghfxcjxnachpw/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal ppc c com.apple.compilers.gcc.4_2
 s327104884.073167
@@ -723,13 +1208,31 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327104884#327104885#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8632979136#1311"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/ppc -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-gmzjecewfdvythdghfxcjxnachpw/OpenGL_Application_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-hfilyfekbqdsfddpiyxcpwpqjpdg/OpenGL_Application_Prefix.pch.gch OpenGL_Application_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
-r0
+s327105298.659092
+e327105298.865609
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-hfilyfekbqdsfddpiyxcpwpqjpdg/OpenGL_Application_Prefix.pch.gch
+xOpenGL_Application_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@40"Precompile OpenGL_Application_Prefix.pch327105298#327105298#0(0"0(0#0#55"/Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch8610958688#1303"    cd /Users/alex/Desktop/MeBox    setenv LANG en_US.US-ASCII    /Xcodes/Developer11072010/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcodes/Developer11072010/SDKs/MacOSX10.5.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-generated-files.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-own-target-headers.hmap" "-I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-all-target-headers.hmap" -iquote "/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/OpenGL Application-project-headers.hmap" -F/Users/alex/Desktop/MeBox/build/Debug -I/Users/alex/Desktop/MeBox/build/Debug/include -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources/i386 -I/Users/alex/Desktop/MeBox/build/MeBox.build/Debug/MeBox.build/DerivedSources -c /Users/alex/Desktop/MeBox/OpenGL_Application_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/OpenGL_Application_Prefix-hfilyfekbqdsfddpiyxcpwpqjpdg/OpenGL_Application_Prefix.pch.gch0#
 
 CTouch "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app"
-s327104891.288594
-e327104891.291465
+s327198374.021251
+e327198374.023887
 r1
 xTouch
 x/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app
-lSLF07#2@66"Touch /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app327104891#327104891#0(0"0(0#0#0"8628443200#118"    cd /Users/alex/Desktop/MeBox    /usr/bin/touch -c "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app"0#
+lSLF07#2@66"Touch /Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app327198374#327198374#0(0"0(0#0#0"8617562144#118"    cd /Users/alex/Desktop/MeBox    /usr/bin/touch -c "/Users/alex/Desktop/MeBox/build/Debug/OpenGL Application.app"0#
+
+CTouch "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app"
+s328842341.690278
+e328842341.757331
+r1
+xTouch
+x/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app
+lSLF07#2@64"Touch /Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app328842341#328842341#0(0"0(0#0#0"8611453888#114"    cd /Users/alex/xCode/MeBox    /usr/bin/touch -c "/Users/alex/xCode/MeBox/build/Debug/OpenGL Application.app"0#
 
